@@ -1,0 +1,95 @@
+
+body{
+  background-color: rgb(240,240,240);
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  color:#FF5862;
+  font-size: 23px;
+  font-weight: 100;
+}
+
+h2{
+  font-family: 'Roboto', sans-serif;
+  color: rgb(100,100,100);
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+}
+
+h3{
+  font-family: 'Roboto', sans-serif;
+  color: rgb(100,100,100);
+  font-size: 18px;
+  font-weight: 100;
+}
+p,li{
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(120, 120, 120);
+  font-size: 15px;
+}
+
+#portrait{
+  width: 90px;
+  border-radius: 50%;
+}
+
+#Blade{
+  width: 50px;
+}
+
+#Hunter{
+  width: 50px;
+}
+
+#Calmos{
+  width: 50px;
+}
+
+#Brokeback{
+  width: 50px;
+}
+
+#joy{
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #FF5862;
+  padding: 6px 10px;
+
+}
+
+.text-align {
+  text-align: center;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card{
+  background: white;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
